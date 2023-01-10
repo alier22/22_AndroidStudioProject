@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517913067272",
+    "project_id": "movietest-f74dc",
+    "storage_bucket": "movietest-f74dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517913067272:android:e920b673cf8ca5004a36bd",
+        "android_client_info": {
+          "package_name": "kr.co.company.movietest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517913067272-56e82ie3tamia5g3j4m53fo68gsh2lfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC02RNwak7GZhCnxnDaLc8M6ZY6pMkz8sA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517913067272-56e82ie3tamia5g3j4m53fo68gsh2lfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "611890414555",
+    "firebase_url": "https://mppr-3af17-default-rtdb.firebaseio.com",
+    "project_id": "mppr-3af17",
+    "storage_bucket": "mppr-3af17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611890414555:android:d1045540fab24ac065ddfe",
+        "android_client_info": {
+          "package_name": "com.example.moviedbtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611890414555-2tmab9au67uhs2hh2uk3rtoi8nqd09dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUURY7UqMHCoJmV-Q6VloKdazIvQCmtJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611890414555-2tmab9au67uhs2hh2uk3rtoi8nqd09dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

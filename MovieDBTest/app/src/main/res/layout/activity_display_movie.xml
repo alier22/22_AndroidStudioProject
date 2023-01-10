@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0dp"
+            android:layout_width="3"
+            android:layout_height="wrap_content"
+            android:text="영화이름"
+            app:layout_constrainBottom_toBottomof = "parent"
+            app:layout_constrainEnd_toEndof = "parent"
+            app:layout_constrainStart_toStartof = "parent"
+            app:layout_constrainTop_toTopof = "parent"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_weight="0dp"
+            android:layout_width="7"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0dp"
+            android:layout_width="3"
+            android:layout_height="wrap_content"
+            android:text="제작년도"
+            app:layout_constrainBottom_toBottomof = "parent"
+            app:layout_constrainEnd_toEndof = "parent"
+            app:layout_constrainStart_toStartof = "parent"
+            app:layout_constrainTop_toTopof = "parent"/>
+        <EditText
+            android:id="@+id/year"
+            android:layout_weight="0dp"
+            android:layout_width="7"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0dp"
+            android:layout_width="3"
+            android:layout_height="wrap_content"
+            android:text="감독"
+            app:layout_constrainBottom_toBottomof = "parent"
+            app:layout_constrainEnd_toEndof = "parent"
+            app:layout_constrainStart_toStartof = "parent"
+            app:layout_constrainTop_toTopof = "parent"/>
+        <EditText
+            android:id="@+id/director"
+            android:layout_weight="0dp"
+            android:layout_width="7"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0dp"
+            android:layout_width="3"
+            android:layout_height="wrap_content"
+            android:text="평점"
+            app:layout_constrainBottom_toBottomof = "parent"
+            app:layout_constrainEnd_toEndof = "parent"
+            app:layout_constrainStart_toStartof = "parent"
+            app:layout_constrainTop_toTopof = "parent"/>
+        <EditText
+            android:id="@+id/rating"
+            android:layout_weight="0dp"
+            android:layout_width="7"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="0dp"
+            android:layout_width="3"
+            android:layout_height="wrap_content"
+            android:text="국가"
+            app:layout_constrainBottom_toBottomof = "parent"
+            app:layout_constrainEnd_toEndof = "parent"
+            app:layout_constrainStart_toStartof = "parent"
+            app:layout_constrainTop_toTopof = "parent"/>
+        <EditText
+            android:id="@+id/nation"
+            android:layout_weight="0dp"
+            android:layout_width="7"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:onClick="buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"/>
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:onClick="buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"/>
+    <Button
+        android:id="@+id/buttonDelete"
+        android:onClick="buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"/>
+
+</LinearLayout>
